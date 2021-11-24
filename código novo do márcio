@@ -1,0 +1,231 @@
+código das imagens:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Imagens:</h1>
+    <img src="https://www.organizandoeventos.com.br/artigos/ed/181206114005-5574.jpg" alt="some text">
+    <img src=<"https://www.emporiotambo.com.br/pub/media/resized/1300x800/ves/blog/xnomes-para-doceria.jpeg.pagespeed.ic.7CWhuw1VsG.jpg">
+    <img src="https://festas.site/wp-content/uploads/2018/11/doces-diferentes-para-eventos.jpg" alt="some text">
+    <img src=<"http://cdn2.universodasnoivas.net/images/e25f3008ccd0faec7d078cfdc9c041bb_2016-01-21.jpg">
+    <img src="https://todepassagem.clickbus.com.br/wp-content/uploads/2020/04/bolo-red-velvet-1024x682.jpg" alt="some text">
+</body>
+</html>
+
+código css:
+
+h1{
+    font-style: italic;
+    font-family: woodlands;
+    color: rgb(63, 11, 63);
+    background-color: rgba(233, 64, 129, 0.925);
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 18px;
+    margin-right: 18px;
+    width: 95.0%;
+}
+h3{
+    font-style: italic;
+    font-family: cursive;
+    font-size: 17px;
+    text-align: center;
+}
+body{
+    background-color: rgb(243, 140, 175);
+    border: 20px solid white;
+}
+img{
+    width: 255px;px;
+    height:200px;
+    text-align: center;
+}
+
+código HTML:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stile.css">
+    <title>trabalho final</title>
+</head>
+<body>
+    <pre>
+        <h1>       
+        ANA PAULA GODOY
+    
+        ATELIÊ DAS DELICIAS
+        (doces artesanais)
+        </h1>
+    </pre>
+   
+    <div>
+        <img src="https://www.organizandoeventos.com.br/artigos/ed/181206114005-5574.jpg" alt="foto doce">
+        <img src="https://www.emporiotambo.com.br/pub/media/resized/1300x800/ves/blog/xnomes-para-doceria.jpeg.pagespeed.ic.7CWhuw1VsG.jpg"> 
+        <img src="https://festas.site/wp-content/uploads/2018/11/doces-diferentes-para-eventos.jpg" alt="foto doces">
+        <img src="http://cdn2.universodasnoivas.net/images/e25f3008ccd0faec7d078cfdc9c041bb_2016-01-21.jpg"> 
+        <img src="https://todepassagem.clickbus.com.br/wp-content/uploads/2020/04/bolo-red-velvet-1024x682.jpg" alt="foto bolo">
+    </div>        
+    <pre>
+        <h3>
+        <p>
+            Desde 1987 atendendo a todos os tipos de eventos com carinho e 
+            o capricho que a sua festa merece, Ana Paula Godoy doces artesanais 
+            transforma em realidade a festa que você sonhou.
+        </P> 
+    </pre>        
+        </h3>
+        <h3>
+          <p>Vamos descobrir agora a festa que você sonhou, preencha o formúlario para receber um orçamento!!</p>
+        </h3>
+    <div class= "cabecalio">
+        <h1>
+            formulário
+        </h1>
+    </div>
+    <div class="FORMULÁRIO:">
+        <form action="">
+            <fieldset>
+                <legend>Dados:</legend>
+            <div>   
+                <label for="nome">Nome:</label>
+                <input id="nome"type="text"placeholder="Escreva seu nome:">
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input id="email"type="text"placeholder="Escreva seu e-mail:">
+            </div>
+            <div>
+                <label for="Quantos convidados tem sua festa">Quantos convidados tem seu evento:</label>
+                <input id="Quantos convidados tem sua festa"type="number"placeholder="Escreva o número de convidados:"></imput>
+            </div>
+            <div class="primeiro-select">
+                <p>Selecione agora o seu tipo de festa:</p>
+                <select name=""id="">
+                    <option disabled selected value="">Selecione agora seu tipo de festa:</option>
+                    <option value="Aniversario infantil">Aniversario infantil</option>
+                    <option value="Aniversario adulto">aniversario adulto</option>
+                    <option value="Casamento">Casamento</option>
+                    <option value="Batizado">Batizado</option>
+                    <option value="outras datas comemorarivas">Outras datas comemorativas</option>
+                </select>    
+            </div>
+            <div class="Tema">
+                    <p>você já tem o tema em mente para sua festa?</p>
+                    
+                    <select name="" id="">
+                        <option disabled selected value="">Selecione a opção:</option>
+                        <option value="sim">sim eu tenho</option>
+                        <option value=" não ">Não eu ainda estou em dúvida</option>
+                         </select>    
+                </div>
+                 <div class="segundo-select">
+                    <p>Seu evento vai ocorrer em qual horário?</p>
+                    <select name=""id="">
+                        <option disabled selected>Horário do evento:</option>
+                        <option value="manha">manhã</option>
+                        <option value="tarde">tarde</option>
+                        <option value="noite">noite</option>                       
+                    </select>
+                </div>
+                <div class="checkbox">
+                    <p>Entre cores variadas escolha tons que pensou para sua festa:</p>
+                    <div>
+                    <input id="azul, verde,branco, cinza"type="checkbox">
+                    <label for="azul,verde,branco,cinza">Azul, verde, branco, cinza</label>
+                    </div>
+                    <div>
+                    <input id="tons pastéis variados"type="checkbox">
+                    <label for="tons pasteis variados">tons pasteis variados</label>
+                    </div>
+                    <div>
+                    <input id="tons de rosa"type="checkbox">
+                    <label for="tons de rosa">tons de rosa</label>
+                    </div>
+                    <div>
+                    <input id="tons de amarelo"type="checkbox">
+                    <label for="tons de amarelo">tons de amarelo</label>
+                    </div>
+                    <div>
+                     <input id="cores vibrantes e alegres"type="checkbox">
+                     <label for="cores vibrantes e alegres">cores vibrantes e alegres</label>
+                     </div>
+                     <div>
+                     <input id="tons terrosos"type="checkbox">
+                     <label for="tons terrosos">tons terrosos</label>
+                     </div>
+                     <div>
+                     <input id="vermelhos"type="checkbox">
+                     <label for="vermelhos">vermelho</label>
+                     </div>
+                     <div>
+                     <input id="branco e dourado "type="checkbox">
+                     <label for="branco e dourado">branco e dourado</label>
+                     </div> 
+                     <div class="checkbox2">
+                        <p>Entre os varios doces disponiveis escolha os que gostaria de ter em seu evento:</p>
+                        <div>
+                        <input id="Brigadeiros"type="checkbox">
+                        <label for="Brigadeiros">Brigadeiros</label>
+                        </div>
+                        <div>
+                        <input id="Doces finos com chocolate"type="checkbox">
+                        <label for="Doces finos com chocolate">Doces finos com chocolate</label>
+                        </div>
+                        <div>
+                        <input id="Palha italiana"type="checkbox">
+                        <label for="Palha italiana">Palha italiana</label>
+                        </div>
+                        <div>
+                        <input id="Macarrons"type="checkbox">
+                        <label for="Macarrons">Macarrons</label>
+                        </div>
+                        <div>
+                         <input id="Bem casados e bem nascidos "type="checkbox">
+                         <label for="Bem casados e bem nascidos">Bem casados e bem nascidos</label>
+                         </div>
+                         <div>
+                         <input id="Camafeus" type="checkbox">
+                         <label for="Camafeus">Camafeus</label>
+                         </div>
+                         <div>
+                         <input id="Casadinhos de nutela e bicho de pe"type="checkbox">
+                         <label for="Casadinhos de nutela e bicho de pe">Casadinhos de nutela e bicho de pé</label>
+                         </div>
+                         <div>
+                         <input id="Doces com damasco e ameixa "type="checkbox">
+                         <label for="doces com damasco e ameixa">doces com damasco e ameixa</label>
+                         </div> 
+                         <div>
+                         <input id="Beijinho "type="checkbox">
+                         <label for="beijinho">Beijinhos</label>
+                         </div> 
+                         <div>
+                         <input id="Trufas "type="checkbox">
+                         <label for="Trufas">trufas</label>
+                         </div>   
+                    <div class="textarea" >
+                         <p>Por favor deixe escrito a quantidade de docinhos necessária para sua festa e alguma observação necessaria:</p>
+                         <p>Entraremos em contato no e-mail informado com um orçamento em até dois dias!!</p>
+                         <textarea name="" id=""cols="50" rows="20">      
+                         </textarea>                           
+                    </div>     
+                </div>
+                <button>Enviar</button>
+            </fieldset>            
+        </form>
+    </div> 
+<p>por Pedro Henrique Moreira e Bianca Ramos Maciel</p>
+</body>
+</html>
+
